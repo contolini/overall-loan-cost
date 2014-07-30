@@ -1,6 +1,6 @@
 {
   "name": "overall-loan-cost",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "description": "Calculate the overall cost of a loan.",
   "homepage": "https://github.com/cfpb/overall-loan-cost",
@@ -50,7 +50,6 @@
     "browser-test": "./node_modules/.bin/browserify test/browser/reporter.js | ./node_modules/.bin/testling"
   },
   "dependencies": {
-    "amortize": "~0.1.1",
-    "nodeunit": "~0.8.8"
+    "amortize": "^0.2.0"
   }
 }
